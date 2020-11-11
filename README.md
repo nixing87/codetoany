@@ -5,7 +5,7 @@
 * 假设将网页授权回调域名设置为www.test.com；
 * 编辑codetoany/getcode.php，将变量$appId的值修改为自己的微信公众号AppId；
 * 将文件夹codetoany中的所有文件部署到http://www.test.com/codetoany/；
-* 在微信内或使用微信web开发者工具访问http://www.test.com/codetoany/getcode.php?auk=demo1，顺利的话，页面将跳转到类似这样的url：http://lionsay.com/?abc=123&code=0318PVx00bTFzB1JOny00YMRx008PVxS&state=STATE；
+* 在微信内或使用微信web开发者工具访问 `http://www.test.com/codetoany/getcode.php?auk=demo1`，顺利的话，页面将跳转到类似这样的url：`http://liang.zone/?abc=123&code=0318PVx00bTFzB1JOny00YMRx008PVxS&state=STATE`；
 ## 攻略指南
 * ?auk=demo1中的auk、demo1以及此时的授权url（即接收授权code的url，最终跳转的url）都是可以自定义的；
 * 网页授权接口中的get参数scope和state可以以get参数的形式传递给codetoany/getcode.php，程序会把它们再传递给接口；
